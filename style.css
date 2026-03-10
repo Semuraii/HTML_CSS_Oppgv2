@@ -32,15 +32,15 @@ body {
   justify-content: space-between;
 }
 
-.tier-1 {
+.nye-enheter {
   background-color: #9d4edd;
 }
 
-.tier-2 {
+.ny-abonnent {
   background-color: #7b2cbf;
 }
 
-.tier-3 {
+.student {
   background-color: #5a189a;
 }
 
