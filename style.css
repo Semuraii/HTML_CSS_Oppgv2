@@ -1,0 +1,77 @@
+ /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter,Roobert,Helvetica Neue,Helvetica,Arial,sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f2f2f2;
+}
+
+.cards-container {
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 1000px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Card Styling */
+.card {
+  flex: 1;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tier-1 {
+  background-color: #9d4edd;
+}
+
+.tier-2 {
+  background-color: #7b2cbf;
+}
+
+.tier-3 {
+  background-color: #5a189a;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: Inter,Roobert,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+button {
+  background: #e0aaff;
+  color: inherit;
+  font-weight: bold;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #c77dff;
+}
